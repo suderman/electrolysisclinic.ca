@@ -91,6 +91,9 @@ body {
   font-size: 70px;
   margin-bottom: 25px;
 }
+@media (max-width: 597px) {
+  .container .hero .img { background: none; }
+}
 
 /* Supporting marketing content */
 .marketing {
