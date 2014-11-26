@@ -1,0 +1,132 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+/* @media (min-width: 768px) { */
+/*   .container { */
+/*     max-width: 730px; */
+/*   } */
+/* } */
+@media (min-width: 992px) {
+  .container {
+    max-width: 850px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.background {
+  background: #da91ee; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RhOTFlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlM2NjZWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left,  #da91ee 0%, #e3ccea 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#da91ee), color-stop(100%,#e3ccea)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #da91ee 0%,#e3ccea 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #da91ee 0%,#e3ccea 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #da91ee 0%,#e3ccea 100%); /* IE10+ */
+  background: linear-gradient(to right,  #da91ee 0%,#e3ccea 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da91ee', endColorstr='#e3ccea',GradientType=1 ); /* IE6-8 */
+
+  box-shadow: 0 10px 10px rgba(0,0,0,0.25);
+  margin-bottom: 50px;
+}
+.container .hero { 
+  /* border: 5px solid black; */
+  border-color: #3f0a48;
+  text-align: left;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  background: none;
+
+}
+.container .hero .img { 
+  background: url(/images/smile.png) top right no-repeat;
+  background-size: contain;
+  padding: 20px;
+}
+.container .hero h1 { 
+  font-family: 'Pacifico', cursive; 
+  font-size: 70px;
+  margin-bottom: 25px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+body { 
+  padding-top: 0;
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 16px;
+  line-height: 1.6;
+}
+h2 { 
+  font-family: 'Aclonica', sans-serif; 
+  color: #3f0a48;
+}
+
