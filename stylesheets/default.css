@@ -136,6 +136,7 @@ h2 {
 img.photo { max-width: 100%; }
 
 div.notice {
+  display: none;
   text-align: center; 
   padding: 10px; 
   font-weight: bold; 
@@ -147,4 +148,4 @@ div.notice {
   z-index: 100; 
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
-div.notice-shim { padding: 20px; }
+div.notice-shim { display:none; padding: 20px; }
