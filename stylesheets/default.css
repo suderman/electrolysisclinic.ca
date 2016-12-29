@@ -136,14 +136,13 @@ h2 {
 img.photo { max-width: 100%; }
 
 div.notice {
-  display: none;
   text-align: center; 
   padding: 10px; 
   font-weight: bold; 
   text-transform: uppercase; 
   position: fixed; 
   width: 100%; 
-  display: block; 
+  display: none; 
   background: white none repeat scroll 0% 0%; 
   z-index: 100; 
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
