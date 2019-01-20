@@ -24,6 +24,13 @@ body {
   line-height: 40px;
 }
 
+.container h3 {
+  font-family: Aclonica, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(63, 10, 72);
+}
+  
 /* Custom page footer */
 .footer {
   padding-top: 19px;
@@ -148,3 +155,10 @@ div.notice {
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 div.notice-shim { display:none; padding: 20px; }
+
+
+img.bio {
+  float: right;  
+  width: 150px;  
+  margin: 0 0 1em 1em;  
+} 
